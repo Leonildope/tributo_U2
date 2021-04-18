@@ -1,0 +1,486 @@
+* {
+    font-family: arial;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;    
+    justify-content: center;
+    height: 80px;
+    background-color: #000000;    
+    position: relative;
+    top: initial;
+    
+}
+.container{
+    width: 900px;
+    justify-content: center;   
+    align-items: center;
+   
+}
+.logo {
+    display: flex;
+    align-items:center;
+    width: 200px;
+    justify-content:left;  
+          
+}
+.menu {
+    display: flex;   
+    align-items: center;
+    justify-content: center;
+    height: 80px;   
+}
+nav ul, nav li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul {
+    display: flex;
+}
+nav a{
+    display: block;
+    padding: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #959391;
+    
+}
+nav .active a, 
+nav a:hover {
+    background-color: #ffffff;
+    color: #444242;    
+}
+#banner {
+    display: flex;
+    justify-content: center;
+    background-image: url('../imagens/u2_1.jpg');    
+    background-size: cover;
+    height: 465px;
+}
+.barra{
+    background-color:#a08251;
+    height: 5px;
+}
+.barra_preta{
+    background-color: #000000;
+    height: 80px;
+}
+.container2{
+    width: 900px;
+    justify-content: center;   
+    align-items: center;
+}
+#biografia{
+    justify-content: center;
+    display: flex;
+}
+.band_title{
+    font-family: 'New Tegomin', serif;
+    font-size: 2.5rem;
+    margin: 15px auto 50px;
+    margin-top: 20px;
+}
+.font{
+    font-family: 'New Tegomin', serif;
+    font-size: 28px;
+}
+.picture_3{
+    display: flex;
+    justify-content: center;
+}
+.link{
+    font-family: 'New Tegomin', serif;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    text-decoration: none;
+    color: #000000;
+    margin-bottom: 30px;
+}
+#discografia{
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
+    background-color: #dfdcd9;
+    padding: 0px;
+}
+.album16{
+    background-color: #dfdcd9;
+    list-style: none;
+    height: 216px;
+    width: 216px;
+    padding: 10px;
+    margin-left: 10px;
+    background-image: url('../imagens/album16.jpg');
+    background-position: center;
+    background-size: contain;
+    margin-right: 10px;
+    margin-bottom: 10px;       
+}
+.album15{
+    background-color: #dfdcd9;
+    list-style: none;
+    height: 216px;
+    width: 216px;
+    padding: 10px;
+    margin-left: 10px;
+    background-image: url('../imagens/album15.jpg');
+    background-position: center;
+    background-size: contain;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.album14{
+    background-color: #dfdcd9;
+    list-style: none;
+    height: 216px;
+    width: 216px;
+    padding: 10px;
+    margin-left: 10px;
+    background-image: url('../imagens/album14.jpg');
+    background-position: top;
+    background-size: cover;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.album13{
+    background-color: #dfdcd9;
+    list-style: none;
+    height: 216px;
+    width: 216px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: url('../imagens/album13.jpg');
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 10px;
+}
+.album12{
+    background-color: #dfdcd9;
+    list-style: none;
+    height: 216px;
+    width: 216px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: url('../imagens/album12.jpg');
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 10px;
+}
+.album11{
+    background-color: #dfdcd9;
+    list-style: none;
+    height: 216px;
+    width: 216px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: url('../imagens/album11.jpg');
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 10px;
+}
+.album10{
+    background-color: #dfdcd9;
+    list-style: none;
+    height: 216px;
+    width: 216px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: url('../imagens/album10.jpg');
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 10px;
+}
+.album9{
+    background-color: #dfdcd9;
+    list-style: none;
+    height: 216px;
+    width: 216px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: url('../imagens/album9.jpg');
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 10px;
+}
+.album8{
+    background-color: #dfdcd9;
+    list-style: none;
+    height: 216px;
+    width: 216px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: url('../imagens/album8.jpg');
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 10px;
+}
+.album7{
+    background-color: #dfdcd9;
+    list-style: none;
+    height: 216px;
+    width: 216px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: url('../imagens/album7.jpg');
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 10px;
+}
+.album6{
+    background-color: #dfdcd9;
+    list-style: none;
+    height: 216px;
+    width: 216px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: url('../imagens/album6.jpg');
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 10px;
+}
+.album5{
+    background-color: #dfdcd9;
+    list-style: none;
+    height: 216px;
+    width: 216px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: url('../imagens/album5.jpg');
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 10px;
+}
+.album4{
+    background-color: #dfdcd9;
+    list-style: none;
+    height: 216px;
+    width: 216px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: url('../imagens/album4.jpg');
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 20px;
+}
+.album3{
+    background-color: #dfdcd9;
+    list-style: none;
+    height: 216px;
+    width: 216px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: url('../imagens/album3.jpg');
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 20px;
+}
+.album2{
+    background-color: #dfdcd9;
+    list-style: none;
+    height: 216px;
+    width: 216px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: url('../imagens/album2.jpg');
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 20px;
+}
+.album1{
+    background-color: #dfdcd9;
+    list-style: none;
+    height: 216px;
+    width: 216px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: url('../imagens/album1.jpg');
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 20px;
+}
+.disc{
+    display: flex;
+    justify-content: center;
+    background-color: #dfdcd9;
+    margin: 0%;
+    padding: 3px;
+
+}
+.album16:hover {    
+    height: 216px;
+    width: 216px;
+    background-color: #959391;    
+    box-shadow: inset 0 0 0 216px #c2420fc4;
+    transition-duration: 1s;    
+}
+.album15:hover {    
+    height: 216px;
+    width: 216px;
+    background-color: #959391;    
+    box-shadow: inset 0 0 0 216px #c2420fc4;
+    transition-duration: 1s;
+}
+.album14:hover {    
+    height: 216px;
+    width: 216px;
+    background-color: #959391;    
+    box-shadow: inset 0 0 0 216px #c2420fc4;
+    transition-duration: 1s;
+}
+.album13:hover {    
+    height: 216px;
+    width: 216px;
+    background-color: #959391;    
+    box-shadow: inset 0 0 0 216px #c2420fc4;
+    transition-duration: 1s;
+}
+.album12:hover {    
+    height: 216px;
+    width: 216px;
+    background-color: #959391;    
+    box-shadow: inset 0 0 0 216px #c2420fc4;
+    transition-duration: 1s;
+}
+.album11:hover {    
+    height: 216px;
+    width: 216px;
+    background-color: #959391;    
+    box-shadow: inset 0 0 0 216px #c2420fc4;
+    transition-duration: 1s;
+}
+.album10:hover {    
+    height: 216px;
+    width: 216px;
+    background-color: #959391;    
+    box-shadow: inset 0 0 0 216px #c2420fc4;
+    transition-duration: 1s;
+}
+.album9:hover {    
+    height: 216px;
+    width: 216px;
+    background-color: #959391;    
+    box-shadow: inset 0 0 0 216px #c2420fc4;
+    transition-duration: 1s;
+}
+.album8:hover {    
+    height: 216px;
+    width: 216px;
+    background-color: #959391;    
+    box-shadow: inset 0 0 0 216px #c2420fc4;
+    transition-duration: 1s;
+}
+.album7:hover {    
+    height: 216px;
+    width: 216px;
+    background-color: #959391;    
+    box-shadow: inset 0 0 0 216px #c2420fc4;
+    transition-duration: 1s;
+}
+.album6:hover {    
+    height: 216px;
+    width: 216px;
+    background-color: #959391;    
+    box-shadow: inset 0 0 0 216px #c2420fc4;
+    transition-duration: 1s;
+}
+.album5:hover {    
+    height: 216px;
+    width: 216px;
+    background-color: #959391;    
+    box-shadow: inset 0 0 0 216px #c2420fc4;
+    transition-duration: 1s;
+}
+.album4:hover {    
+    height: 216px;
+    width: 216px;
+    background-color: #959391;    
+    box-shadow: inset 0 0 0 216px #c2420fc4;
+    transition-duration: 1s;
+}
+.album3:hover {    
+    height: 216px;
+    width: 216px;
+    background-color: #959391;    
+    box-shadow: inset 0 0 0 216px #c2420fc4;
+    transition-duration: 1s;
+}
+.album2:hover {    
+    height: 216px;
+    width: 216px;
+    background-color: #959391;    
+    box-shadow: inset 0 0 0 216px #c2420fc4;
+    transition-duration: 1s;
+}
+.album1:hover {    
+    height: 216px;
+    width: 216px;
+    background-color: #959391;    
+    box-shadow: inset 0 0 0 216px #c2420fc4;
+    transition-duration: 1s;
+}
+.text {  
+    opacity: 0;
+    height: 216px;
+    width: 216px;
+    text-align: center;
+    font-size: 13px;
+}
+.text:hover {
+    opacity: 1;
+    color: #ffffff;
+    transition-duration: 1s;
+    text-transform: uppercase;
+    
+}
+#discografia2{
+    justify-content: center;
+    display: flex;
+    margin-top: opx;
+    background-color: #111110;
+    padding: 0px;
+    color: #fff;
+}
+.band2_title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+   
+    margin-top: 20px;
+}
+.picture_2{
+    width: 342px;
+    height: 342px;
+    background-image: url('../imagens/album16.jpg');
+    background-position: center;
+    background-size: contain;
+    list-style: none;
+    display: flex;
+    justify-content: left;
+}    
+.text_2{
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    width: 450px;
+    height: 450px;
+    
+    
+}
