@@ -9,23 +9,18 @@ header {
     display: flex;    
     justify-content: center;
     height: 80px;
-    background-color: #000000;    
-    position: relative;
-    top: initial;
-    
+    background-color: #000000;      
 }
 .container{
-    width: 900px;
-    justify-content: center;   
-    align-items: center;
-   
+    width: 90px;
+    justify-content: space-between;    
+    display: flex;   
 }
 .logo {
     display: flex;
     align-items:center;
     width: 200px;
-    justify-content:left;  
-          
+    justify-content:center;          
 }
 .menu {
     display: flex;   
@@ -54,11 +49,10 @@ nav a:hover {
     background-color: #ffffff;
     color: #444242;    
 }
-#banner {
-    display: flex;
-    justify-content: center;
+#banner {    
     background-image: url('../imagens/u2_1.jpg');    
     background-size: cover;
+    background-position: center;
     height: 465px;
 }
 .barra{
@@ -108,6 +102,12 @@ nav a:hover {
     margin-top: 30px;
     background-color: #dfdcd9;
     padding: 0px;
+}
+.discogra{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #dfdcd9;;
 }
 .album16{
     background-color: #dfdcd9;
