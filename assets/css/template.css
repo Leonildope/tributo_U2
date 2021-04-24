@@ -9,28 +9,21 @@ header {
     display: flex;    
     justify-content: center;
     height: 80px;
-    background-color: #000000;    
-    position: relative;
-    top: initial;
-    
+    background-color: #000000;      
 }
 .container{
     width: 900px;
-    justify-content: center;   
-    align-items: center;
-   
+    justify-content: space-between;    
+    display: flex;   
 }
 .logo {
     display: flex;
     align-items:center;
-    width: 200px;
-    justify-content:left;  
-          
+    width: 200px;            
 }
 .menu {
     display: flex;   
-    align-items: center;
-    justify-content: center;
+    align-items: center;    
     height: 80px;   
 }
 nav ul, nav li{
@@ -46,19 +39,17 @@ nav a{
     padding: 30px;
     text-decoration: none;
     text-transform: uppercase;
-    color: #959391;
-    
+    color: #959391;    
 }
 nav .active a, 
 nav a:hover {
     background-color: #ffffff;
     color: #444242;    
 }
-#banner {
-    display: flex;
-    justify-content: center;
+#banner {    
     background-image: url('../imagens/u2_1.jpg');    
     background-size: cover;
+    background-position: center;
     height: 465px;
 }
 .barra{
@@ -108,6 +99,12 @@ nav a:hover {
     margin-top: 30px;
     background-color: #dfdcd9;
     padding: 0px;
+}
+.discogra{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #dfdcd9;;
 }
 .album16{
     background-color: #dfdcd9;
@@ -319,19 +316,19 @@ nav a:hover {
 }
 .disc{
     display: flex;
+    
     justify-content: center;
     background-color: #dfdcd9;
+    align-items: center;
     margin: 0%;
     padding: 3px;
-
 }
 .album16:hover {    
     height: 216px;
     width: 216px;
     background-color: #959391;    
     box-shadow: inset 0 0 0 216px #c2420fc4;
-    transition-duration: 1s;
-       
+    transition-duration: 1s;       
 }
 .album15:hover {    
     height: 216px;
@@ -470,8 +467,7 @@ nav a:hover {
     font-family: 'Lexend', sans-serif;
     font-size: 16px;  
     margin-top: 8px;
-    margin-bottom: 20px;
-    
+    margin-bottom: 20px;    
 }
 .picture_2{
     width: 342px;
@@ -525,10 +521,29 @@ nav a:hover {
     text-decoration: none;
     color: #fff;
     margin-left: 10px;
-    font-size: 25px;
-    
+    font-size: 25px;    
 }
 .footer_text2{
     margin-top: 10px;
 }
-
+@media (max-width:768px){
+    .container2{
+        width: 767px;      
+    }
+    .disc{        
+        flex-wrap: wrap;        
+    }
+    .band_title{
+        text-align: center;
+    }
+    .band2_title{
+        text-align: center;
+    }
+    .band3_title{
+        text-align: center;
+    }
+    .font{
+        font-size: 25px;
+        margin-left: 20px;
+    }
+}
